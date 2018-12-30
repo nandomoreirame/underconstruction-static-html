@@ -16,3 +16,7 @@ $ yarn build # or npm run build
 ```
 
 ## [Demo](https://underconstruction-static-html.netlify.com/)
+
+![underconstruction-static-html](underconstruction-static-html.png)
+
+Enjoy! 😋
