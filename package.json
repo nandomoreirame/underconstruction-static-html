@@ -15,15 +15,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nandomoreirame/sobmedidafitnessfood.com.git"
+    "url": "git+https://github.com/nandomoreirame/underconstruction-static-html.git"
   },
   "author": "Fernando Moreira <nandomoreira.me@gmail.com> (https://nandomoreira.me)",
   "bugs": {
-    "url": "https://github.com/nandomoreirame/sobmedidafitnessfood.com/issues"
+    "url": "https://github.com/nandomoreirame/underconstruction-static-html/issues"
   },
-  "homepage": "https://sobmedidafitnessfood.com",
+  "homepage": "https://underconstruction-static-html.netlify.com",
   "engines": {
-    "node": ">=8"
+    "node": ">=10"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
