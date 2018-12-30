@@ -1,0 +1,45 @@
+.hero
+  background url("../images/hero-bg.jpg") no-repeat 50%
+  background-size cover
+  .form
+    +above(tablet-md)
+      display flex
+      align-items center
+      .form__input
+        border-top-right-radius 0
+        border-bottom-right-radius 0
+      .button
+        border-top-left-radius 0
+        border-bottom-left-radius 0
+  .form,
+  &__title,
+  &__lead
+    max-width 560px
+  &__title
+    font-size 56px
+    line-height 1
+    letter-spacing -0.4px
+    color #505069
+    margin-bottom 25px
+    &, strong
+      font-weight 800
+  &__lead
+    font-size 21px
+    font-weight 500
+    line-height 1.57
+    letter-spacing -0.4px
+    color #505069
+    margin-bottom 25px
+  &__left
+    background-color #fff
+    padding 35px
+    width 100%
+    +above(tablet-md)
+      max-width 600px
+      align-items center
+      justify-content center
+      display flex
+      height 100vh
+      // flex 1 1 percentage(2/3)
+    +above(desktop-lg)
+      max-width 50%

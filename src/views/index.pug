@@ -1,0 +1,13 @@
+extends layouts/default.pug
+block content
+  .hero
+    .hero__left
+      .hero__content
+        h1.hero__title
+          | O Site da <strong>Sob Medida</strong> está em construção...
+        p.hero__lead
+          | Quer receber uma notificação quando nosso site estiver disponível? Digite seu email no formulário abaixo.
+        form.form
+          input(type='email' class='form__input' placeholder='Digite seu email aqui' required autofocus)
+          button.button(type='submit')
+            | Cadastrar
