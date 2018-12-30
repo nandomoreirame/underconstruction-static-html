@@ -7,7 +7,7 @@ block content
           | O Site da <strong>Sob Medida</strong> está em construção...
         p.hero__lead
           | Quer receber uma notificação quando nosso site estiver disponível? Digite seu email no formulário abaixo.
-        form.form
-          input(type='email' class='form__input' placeholder='Digite seu email aqui' required autofocus)
+        form.form(method="post" action="/" data-netlify="true")
+          input(type='email' name='email' class='form__input' placeholder='Digite seu email aqui' required autofocus)
           button.button(type='submit')
             | Cadastrar
