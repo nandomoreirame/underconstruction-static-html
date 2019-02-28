@@ -1,5 +1,9 @@
 # Sobmedida fitness food
 
+## Netlify Status
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9895c682-5985-4143-bb1a-d4cb70590e23/deploy-status)](https://app.netlify.com/sites/underconstruction-static-html/deploys)
+
 ## Quick start
 
 ```bash
