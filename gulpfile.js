@@ -11,6 +11,7 @@ const wbBuild = require('workbox-build')
 const assign = require('lodash.assign')
 const isProduction = config.isProduction
 const $ = config.plugins
+const pugConfig = { ...config.pkg, ...{ homepage: config.baseUrl } }
 
 task('eslint', () =>
   src(['./src/scripts/**/*.js', '!node_modules/**'])
@@ -38,9 +39,9 @@ task('fonts', () =>
 task('templates', () =>
   src('./src/views/*.pug')
     .pipe($.plumber(config.plumber))
-    .pipe($.data(file => assign({ fileHash: config.fileHash }, config.pkg)))
+    .pipe($.data(file => assign({ fileHash: config.fileHash }, pugConfig)))
     .pipe($.pug({
-      pretty: !isProduction
+      pretty: true
     }))
     .pipe($.rename(path => {
       if (path.basename !== 'index') {

@@ -7,6 +7,7 @@ const rupture = require('rupture')
 
 const env = process.env.NODE_ENV || 'development'
 const isProduction = env === 'production'
+const baseUrl = isProduction ? pkg.homepage : 'http://localhost:3000'
 const $ = loadPlugins()
 
 const hasher = crypto.createHash('sha1').update(new Date().toLocaleString(), 'utf8')
@@ -15,6 +16,7 @@ const fileHash = isProduction ? `.${hasher.digest('hex').slice(0, 8)}.min` : ''
 module.exports = {
   pkg,
   isProduction,
+  baseUrl,
   plugins: $,
   fileHash,
   src: {

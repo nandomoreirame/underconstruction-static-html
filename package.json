@@ -1,8 +1,9 @@
 {
   "name": "sobmedidafitnessfood",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "title": "Sob Medida Fitness Food",
   "description": "Comida saudável e equilibrada para quem pretende manter-se dentro da dieta, perder peso ou fazer uma reeducação alimentar sem abrir mão do sabor!",
+  "homepage": "https://underconstruction-static-html.netlify.com",
   "main": "gulpfile.js",
   "private": true,
   "scripts": {
@@ -21,7 +22,6 @@
   "bugs": {
     "url": "https://github.com/nandomoreirame/underconstruction-static-html/issues"
   },
-  "homepage": "https://underconstruction-static-html.netlify.com",
   "engines": {
     "node": ">=10"
   },
