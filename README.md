@@ -1,8 +1,8 @@
-# Sobmedida fitness food
+# Sobmedida fitness food [![Netlify Status](https://api.netlify.com/api/v1/badges/9895c682-5985-4143-bb1a-d4cb70590e23/deploy-status)](https://app.netlify.com/sites/underconstruction-static-html/deploys)
 
-## Netlify Status
+## [Demo](https://underconstruction-static-html.netlify.com/)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9895c682-5985-4143-bb1a-d4cb70590e23/deploy-status)](https://app.netlify.com/sites/underconstruction-static-html/deploys)
+![underconstruction-static-html](underconstruction-static-html.png)
 
 ## Quick start
 
@@ -19,8 +19,31 @@ open [localhost:3000](http://localhost:3000/) in your browser.
 $ yarn build # or npm run build
 ```
 
-## [Demo](https://underconstruction-static-html.netlify.com/)
+## History
 
-![underconstruction-static-html](underconstruction-static-html.png)
+See [Releases](https://github.com/nandomoreirame/readme-boilerplate/releases) for detailed changelog.
+
+## Author
+
+| [![twitter/oseunando](https://avatars6.githubusercontent.com/u/1318271?v=4&s=120)](http://twitter.com/oseunando "Follow @oseunando on Twitter") |
+| ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Fernando Moreira](http://twitter.com/oseunando)                                                                                                |
+
+## License
+
+```
+WWWWWW||WWWWWW
+ W W W||W W W
+      ||
+    ( OO )__________
+     /  |           \
+    /o o|    MIT     \
+    \___/||_||__||_|| *
+         || ||  || ||
+        _||_|| _||_||
+       (__|__|(__|__|
+```
+
+Code is under [MIT License](/LICENSE) - © Fernando Moreira
 
 Enjoy! 😋
